@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Level 1",
+      "background": "assets/images/Background01.png",
+      "seed": "Knuddels liebt seeds",
+      "ansers": ["hund","dog","wauwau","puppy","welpe"],
+      "anserImage": "assets/images/Pixel_Dog.png",
+      "backgroundMusic": "assets/music/Song01.mp3"
+    },
+    {
+      "name": "Level 2",
+      "background": "assets/images/Background02.png",
+      "seed": "Hallo Welt",
+      "ansers": ["teddybär","teddybear","teddybaer","teddy","kuscheltier","plushy"],
+      "anserImage": "assets/images/Pixel_Tedybear.png",
+      "backgroundMusic": "assets/music/Song01.mp3"
+    },
+    {
+        "name": "Level 3",
+        "background": "assets/images/Background03.png",
+        "seed": "Hallo Welt Ich lebe",
+        "ansers": ["schmetterling","butterfly"],
+        "anserImage": "assets/images/Pixel_Butterfly.png",
+        "backgroundMusic": "assets/music/Song01.mp3"
+      }
+  ]
+  

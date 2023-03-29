@@ -1,0 +1,42 @@
+[
+    {
+      "name": "DestructableBox",
+      "textures": {
+        "adress":["assets/images/Damaged02_Box.png", "assets/images/Damaged_Box.png", "assets/images/Destructabel_Box.png"],
+        "name":["damaged02Box", "damagedBox","destructableBox"]
+      },
+      "hitSounds":{
+        "adress": ["assets/music/BoxSmash.wav"],
+        "name": ["destructableSound"]
+      }, 
+      "volumeOfHit": 0.5,
+      "frequency": 0.8
+    },
+    {
+      "name": "IndestructableBox",
+      "textures": {
+        "adress":["assets/images/Indestructabel_Box.png"],
+        "name":["indestructableBox"]
+      },
+      "hitSounds":{
+        "adress": ["assets/music/MetalHit.wav"],
+        "name": ["indestructableSound"]
+      }, 
+      "volumeOfHit": 1,
+      "frequency": 0.05
+    },
+    {
+       "name": "ExplosiveBox",
+       "textures": {
+         "adress":["assets/images/Explosive_Box.png","assets/images/ExplosiveParticel.png"],
+         "name":["explosiveBox", "explosiveParticel"]
+       },
+       "hitSounds":{
+        "adress": ["assets/music/ExplosionSound.wav"],
+        "name": ["explosiveSound"]
+      }, 
+      "volumeOfHit": 1,
+      "frequency": 0.15
+    }
+  ]
+  
